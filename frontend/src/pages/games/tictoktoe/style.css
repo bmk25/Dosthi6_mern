@@ -1,0 +1,39 @@
+.tic-tac-toe {
+    text-align: center;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 4px;
+    margin-top: 20px;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    font-size: 24px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .square:hover {
+    background-color: #eee;
+  }
+  
+  .game-info {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  /* You can add more styling as needed */
+  
